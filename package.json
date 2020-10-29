@@ -1,0 +1,25 @@
+{
+  "name": "virtual_dom",
+  "version": "1.0.0",
+  "description": "virtual_dom",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lrz",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
+  }
+}
